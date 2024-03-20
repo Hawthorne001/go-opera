@@ -9,7 +9,7 @@ require (
 	github.com/cespare/cp v1.1.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/deckarep/golang-set v1.7.1
-	github.com/docker/docker v1.13.1
+	github.com/docker/docker v24.0.9+incompatible
 	github.com/dvyukov/go-fuzz v0.0.0-20201127111758-49e582c6c23d
 	github.com/ethereum/go-ethereum v1.10.8
 	github.com/evalphobia/logrus_sentry v0.8.2
@@ -38,10 +38,10 @@ require (
 	github.com/uber/jaeger-client-go v2.20.1+incompatible
 	github.com/uber/jaeger-lib v2.2.0+incompatible
 	go.uber.org/atomic v1.5.1 // indirect
-	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
-	golang.org/x/tools v0.1.5 // indirect
+	golang.org/x/crypto v0.1.0
+	golang.org/x/sys v0.1.0
 	gopkg.in/urfave/cli.v1 v1.20.0
+	gotest.tools/v3 v3.5.1 // indirect
 )
 
 replace github.com/ethereum/go-ethereum => github.com/Fantom-foundation/go-ethereum v1.10.8-ftm-rc9
